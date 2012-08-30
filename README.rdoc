@@ -3,10 +3,10 @@
 This is a starting place for a rails app and is what I use for my personal projects. It has user accounts a login page etc. Styling is provided by twitter bootstrap.
 
 == Components
-  - Twitter Bootstrap With LESS css (or scss if you prefer)
-  - Haml
-  - Devise
-  - ActiveAdmin
+- Twitter Bootstrap With LESS css (or scss if you prefer)
+- Haml
+- Devise
+- ActiveAdmin
   
 
   
