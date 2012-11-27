@@ -3,15 +3,12 @@ BootstrappedRails::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
-  get "users/show"
 
   devise_for :users
   
   resources :users
   
-  match "account" => "users#account"
-  
-  root :to => "users#show"
+  root :to => "welcome#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -14,4 +14,7 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+.powrc
+.rvmrc
+.DS_STORE
 *.sqlite3

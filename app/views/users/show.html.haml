@@ -1,5 +1,7 @@
-%h2
-  Welcome
-  = current_user.email
+- if @user == current_user
+  %p This is you!
 .well
-  %h3  User account info
+  %h3
+    Email:
+    = @user.email
+    = link_to "Edit", edit_user_path(@user) if can?(:edit, @user)

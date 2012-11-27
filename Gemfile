@@ -6,6 +6,8 @@ gem 'sqlite3'
 
 gem 'haml-rails'
 gem 'devise'
+gem 'cancan'
+gem 'rolify'
 gem 'simple_form', '~> 2.0'
 gem 'bootstrap-generators', '~> 2.0'
 gem 'activeadmin'
